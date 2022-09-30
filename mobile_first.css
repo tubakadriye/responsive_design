@@ -1,0 +1,152 @@
+html
+{
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+    /* height: 100%; */
+    box-sizing: border-box;
+    
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    /* width: 100%; */
+    /* height: 300px; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    border: 3px solid green;
+    align-items: center;
+
+}
+
+section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 3px solid red;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+}
+
+nav {
+    background-color: #5995DA;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 3px solid red;
+    align-items: center;
+
+}
+
+header {
+    background-color: #B2D6FF;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 3px solid red;
+    align-items: center;
+}
+
+.item1 {
+    background-color: #EAEDF0;
+    height: 600px;
+
+}
+
+.item3 {
+    background-color: #D6E9FE;
+    /* height: 300px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height:600px ; */
+}
+
+.item4 {
+    background-color: papayawhip;
+    /* height: 400px; */
+}
+
+.item6 {
+    background-color: aquamarine;
+    /* height: 700px; */
+    /* padding: 0; */
+    /* display: flex; */
+
+}
+.item8 {
+    background-color: antiquewhite;
+    /* height: 200px; */
+    /* display: flex; */
+}
+
+.item9 {
+    background-color: lightpink;
+    /* height: 200px; */
+    /* display: flex; */
+}
+
+.item9 {
+    background-color: lightseagreen;
+    /* height: 200px; */
+    /* display: flex; */
+}
+
+
+h3 {
+    width: 100%;
+}
+
+p {
+
+}
+
+/* .item7, .item5, .item2 {
+    width: 90%;
+    height:90%;
+} */
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .item8,
+    .item6,
+    .item9, .item10
+     {
+      width: 49%;
+    }
+  }
+
+  /* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .page {
+      width: 960px;
+      margin: 0 auto;
+    }
+    .item8,
+    .item9,
+    .item10 {
+      width: 32.3%;
+    }
+    .header {
+      height: 400px;
+    }
+  }
+  
+
+
+  
+
+
+
+
