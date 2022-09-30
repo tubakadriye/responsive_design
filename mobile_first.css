@@ -141,6 +141,15 @@ p {
     .header {
       height: 400px;
     }
+
+    .item6 {
+        height: 200px;
+        order: 1;
+    }
+
+    .item4 {
+        order: 2;
+    }
   }
   
 
